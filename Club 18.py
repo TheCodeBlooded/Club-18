@@ -14,7 +14,7 @@ def ageCheck(age) :
 
 def printLocations() :
     for i in range(len(locationData)) :
-        print("Location: " + locationData[i][0] + " \n \t Price per night (per person): £" + locationData[i][1])
+        print("Location: " + locationData[i][0] + " \n \t Price per night (per person): Â£" + locationData[i][1])
 
 def getLocationData(location) :
     for i in locationData :
@@ -28,7 +28,7 @@ def generateDiscount(personCount, price) :
     if personCount >= 11 and personCount <= 20 :
         
         return price * 0.9
-    if personCount >= 21 :
+    if personCount >= 21 and personCount <= 30:
         return price * 0.85
     return price
 
@@ -50,7 +50,7 @@ while age == -1 :
         print("You have entered an invalid age. Please try again")
 
     if ageCheck(age) == False :
-        print("You're not old enough to book a holiday.")
+        print("You do not fit the holidays age range.")
         
         age = -1
 
@@ -83,11 +83,11 @@ while True :
 
                 continue
 
-            print("The holiday is £" + data[1] + " per person.")
+            print("The holiday is Â£" + data[1] + " per person.")
 
-            print("The total cost for " + str(personCount) + " guests is £" + str((int(data[1]) * personCount)))
+            print("The total cost for " + str(personCount) + " guests is Â£" + str((int(data[1]) * personCount)))
 
-            print("With applied discount the total price is £" + str(generateDiscount(personCount, (int(data[1]) * personCount)))) 
+            print("With applied discount the total price is Â£" + str(generateDiscount(personCount, (int(data[1]) * personCount)))) 
 
             break
         break
