@@ -1,0 +1,4 @@
+\\peterborough.ac.uk\mfi\dfsACUserdata2\StudentH\B\binyon_P110109979\College Work\Unit 1 - Principles of Computer Science\Club 18\Club 18\Club 18\bin\Debug\Club 18.exe
+\\peterborough.ac.uk\mfi\dfsACUserdata2\StudentH\B\binyon_P110109979\College Work\Unit 1 - Principles of Computer Science\Club 18\Club 18\Club 18\bin\Debug\Club 18.pdb
+\\peterborough.ac.uk\mfi\dfsACUserdata2\StudentH\B\binyon_P110109979\College Work\Unit 1 - Principles of Computer Science\Club 18\Club 18\Club 18\obj\x86\Debug\Club 18.exe
+\\peterborough.ac.uk\mfi\dfsACUserdata2\StudentH\B\binyon_P110109979\College Work\Unit 1 - Principles of Computer Science\Club 18\Club 18\Club 18\obj\x86\Debug\Club 18.pdb
